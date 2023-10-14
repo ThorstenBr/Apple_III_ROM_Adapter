@@ -1,5 +1,5 @@
 # Apple III ROM Adapter (B9 ROM)
-This project contains the design for an adpater the Apple /// "B9" ROM (the main ROM).
+This project contains the design for an adpater the Apple /// "**B9 ROM**" (the main system ROM to boot the 6502 CPU).
 The adapter allows to replace the stock 4K ROM with a custom programmable 27C64 EPROM or 28C64 EEPROM (8K).
 (The Apple III supports two 4K ROM bank, though the original ROM was only 4K.)
 The adapter is useful to replace the stock Apple /// ROM with a variant providing additional features - such as bootstrapping from
@@ -10,9 +10,25 @@ It also takes care of providing the necessary clearance: the Apple ///'s "B9" RO
 
 <font color="red">**ATTENTION:** Work-in-progress! The PCB needs a redesgin. The initial prototype did not quite fit the limited space below the keyboard (except when using some unorthodox tricks). The PCB will be redesigned and the EPROM needs to be rotated 90 degrees...</font>.
 
-![Apple III ROM adapter PCB](Images/Apple_III_ROM_Adapter-1.png)
+### PCB ###
+![Apple III ROM Adapter PCB](Images/Apple_III_ROM_Adapter-2.png)
 
-![Apple III ROM adapter PCB](Images/Apple_III_ROM_Adapter-2.png)
+![Apple III ROM Adapter PCB](Images/Apple_III_ROM_Adapter-1.png)
+
+### Reverese side ###
+
+![Apple III ROM Adapter PCB](Images/Apple_III_ROM_Adapter-3.png)
+
+## Jumpers ##
+The two jumpers allow to change the mapping of the EPROMs "Vpp" and "OE" pins. They are preconfigured on the PCB.
+For custom use cases the trace between the jumper pads may be cut with a knife.
+
+## Gerber Files ##
+Here is a [ZIP file containing the Gerber files](Gerber/Apple_III_ROM_Adapter-v2.0.zip) required to order PCBs.
+
+## Installation
+
+![Apple III ROM Adapter Installation](Photos/A3ROM_adapter.jpg)
 
 ## License
 This project is released under the "Creative Commons Attribution 4.0 International Public License". See [LICENSE](LICENSE).
