@@ -8,8 +8,6 @@ harddisks or other devices (such as ProDOS interface cards).
 The PCB adapts the Apple ///'s pinout for a "2532" ROM to a more common 27c64/28c64 EPROM/EEPROM.
 It also takes care of providing the necessary clearance: the Apple ///'s "B9" ROM is located in a tight space directly below the keyboard. Simple ROM adapters do not fit this space. This adapter was specifically designed with an offset, moving the top (E)PROM further towards the rear of the machine (closer to the memory board), which provides the necessary clearance.
 
-<font color="red">**ATTENTION:** Work-in-progress! The PCB needs a redesgin. The initial prototype did not quite fit the limited space below the keyboard (except when using some unorthodox tricks). The PCB will be redesigned and the EPROM needs to be rotated 90 degrees...</font>.
-
 ### PCB ###
 ![Apple III ROM Adapter PCB](Images/Apple_III_ROM_Adapter-2.png)
 
